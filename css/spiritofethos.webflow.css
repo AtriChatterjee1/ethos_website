@@ -355,6 +355,10 @@
   letter-spacing: -0.01em;
 }
 
+.paragraph.cursor-text{
+  font-weight: 600;
+}
+
 .paragraph.is--white {
   color: #fff;
 }
