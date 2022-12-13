@@ -550,7 +550,7 @@
   position: relative;
   z-index: 1;
   font-family: Fraunces, sans-serif;
-  font-size: 2.2em;
+  font-size: 1.75em;
   line-height: 1.3em;
   letter-spacing: -0.06em;
 }
@@ -626,7 +626,7 @@
   bottom: 0%;
   z-index: 0;
   height: 30vh;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: none;
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1110,7 +1110,7 @@
 
 .timeline_info {
   font-family: 'Generalsans variable', sans-serif;
-  font-size: 0.4em;
+  font-size: 0.6em;
   font-weight: 400;
   letter-spacing: -0.02em;
 }
