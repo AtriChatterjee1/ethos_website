@@ -236,6 +236,30 @@
   border-radius: 1.5em;
   background-color: #faeae7;
   cursor: pointer;
+  z-index: 200;
+}
+
+.hider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  padding-right: 1em;
+  padding-left: 1em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 1.5em;
+  background-color: #faeae7;
+  /* cursor: pointer; */
+  z-index: 200;
 }
 
 .primary_button_inner {
@@ -250,6 +274,7 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+ 
 }
 
 .paragraph_button {
@@ -411,6 +436,7 @@
   border-radius: 1.5em;
   background-color: #dc2d2d;
   cursor: pointer;
+  z-index: 200;
 }
 
 .bg_grid_wrap {
