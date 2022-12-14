@@ -2340,7 +2340,7 @@
 }
 @font-face {
   font-family: 'Fraunces';
-  src: url('../images/') format('truetype');
+  src: url('../fonts/Fraunces-VariableFont_SOFTWONKopszwght.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
