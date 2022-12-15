@@ -1755,6 +1755,7 @@
   flex-direction: column;
   grid-column-gap: 0.35em;
   grid-row-gap: 0.35em;
+  height: 100%;
 }
 
 .link_inner {
