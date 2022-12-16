@@ -921,6 +921,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  gap: 8rem;
   width: 100%;
   height: 16em;
   margin-top: -1em;
@@ -1516,6 +1518,21 @@
   margin-bottom: 32px;
 }
 
+.associate-sponsor{
+  height: 8rem;
+  width: auto;
+}
+
+.sponsor{
+  height: 4.5rem;
+  width: auto;
+}
+
+.bronze-sponsor{
+  height: 4.5rem;
+  width: auto;
+}
+
 .footer-link-dark {
   display: block;
   margin-right: 20px;
@@ -1824,8 +1841,8 @@
 
 .companies_logo_outer {
   width: auto;
-  height: 100%;
-  padding-left: 6em;
+  height: auto;
+  /* padding-left: 6em; */
 }
 
 .prizes_outer {
