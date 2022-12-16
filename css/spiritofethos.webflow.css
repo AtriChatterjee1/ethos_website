@@ -1946,8 +1946,9 @@
   -ms-flex-align: center;
   align-items: center;
   border-top: 0.01em solid rgba(0, 0, 0, 0.2);
+  background-color: #ffffff ;
   opacity: 0.7;
-  background-color: #ffffff;
+  /* z-index: 1000; */
 }
 
 .companies_logo_outer {
