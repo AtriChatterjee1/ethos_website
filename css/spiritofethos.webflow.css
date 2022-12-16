@@ -1533,6 +1533,116 @@
   width: auto;
 }
 
+@media screen and (min-width: 1280px){
+
+  .companies_outer_wrap{
+    height: 14em;
+  }
+
+  .associate-sponsor{
+    height: 6rem;
+    width: auto;
+  }
+  
+  .sponsor{
+    height: 3rem;
+    width: auto;
+  }
+  
+  .bronze-sponsor{
+    height: 3rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 950px){
+
+  .companies_outer_wrap{
+    height: 10em;
+  }
+
+  .associate-sponsor{
+    height: 4rem;
+    width: auto;
+  }
+  
+  .sponsor{
+    height: 2rem;
+    width: auto;
+  }
+  
+  .bronze-sponsor{
+    height: 2rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .companies_outer_wrap{
+    height: 8em;
+
+  }
+
+  .associate-sponsor{
+    height: 3rem;
+    width: auto;
+  }
+  
+  .sponsor{
+    height: 1.5rem;
+    width: auto;
+  }
+  
+  .bronze-sponsor{
+    height: 1.5rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .companies_outer_wrap{
+    width: fit-content !important;
+    /* height: 8em; */
+    gap: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .companies_wrap{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+
+
+
+  .companies_wrap{
+    gap: 1rem;
+  }
+
+  .companies_outer_wrap{
+    height: 35em !important;
+  }
+
+  .apply-button {
+    visibility: hidden;
+  }
+
+  .devfolio-navbar-wrapper{
+    display: none;
+  }
+}
+
 .footer-link-dark {
   display: block;
   margin-right: 20px;
@@ -2156,7 +2266,7 @@
   }
 
   .companies_wrap {
-    height: 90em;
+    height: fit-content;
   }
 
   .companies_title_wrap {
