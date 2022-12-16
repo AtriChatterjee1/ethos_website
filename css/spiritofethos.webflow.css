@@ -1947,6 +1947,7 @@
   align-items: center;
   border-top: 0.01em solid rgba(0, 0, 0, 0.2);
   opacity: 0.7;
+  background-color: #ffffff;
 }
 
 .companies_logo_outer {
